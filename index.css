@@ -1,0 +1,383 @@
+@media screen and (min-width:300px) and (max-width:320px){
+    .work-img{
+        height: 90px !important;
+            }
+}
+@media screen and (min-width:321px) and (max-width:340px){
+    .work-img{
+        height: 97px !important;
+            }
+}
+@media screen and (min-width:341px) and (max-width:360px){
+    .work-img{
+        height: 105px !important;
+            }
+}
+@media screen and (min-width:361px) and (max-width:381px){
+    .work-img{
+        height: 112px !important;
+            }
+}
+@media screen and (min-width:300px) and (max-width:830px) {
+    
+     .leftnav{
+        padding-top: 0px !important;
+        font-size: 10px !important;
+        width: 85% !important;
+    }
+}
+
+.send:hover {
+    background-color: gray;
+}
+
+.leftnav div:hover{
+    background-color: gray;
+}
+
+
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 5px 10px 5px;
+    width: 99%;
+    align-items: center;
+    border-top-left-radius: 8px;
+    height: 40px;
+    box-sizing: border-box;
+    margin: auto;
+    position: sticky;
+    top: 0px;
+}
+
+.leftnav {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 5%;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.leftnav div{
+    border-radius: 2px;
+}
+
+.rightnav {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+svg {
+    height: 15px;
+    width: auto;
+}
+
+.bgimg {
+    width: 99%;
+    margin: auto;
+    height: 90%;
+    overflow: hidden;
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+.idea{
+    color: rgb(36, 36, 36);
+    text-align: center;
+    letter-spacing: 2px;
+    width: 99%;
+    margin: auto;
+    font-weight: bold;
+
+}
+
+.p1 {
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(24, 24, 23);
+    font-size: xx-large;
+
+}
+
+.p2 {
+    text-align: center;
+    color: rgb(49, 49, 48);
+    font-size: medium;
+    letter-spacing: 7px;
+}
+
+.team {
+    margin: auto;
+    margin-top: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 99%;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.developer,
+.designer,
+.fixer {
+    width: 150px;
+}
+
+.team-imgs {
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    box-sizing: border-box;
+    object-fit: fill;
+
+}
+
+.team-imgs img {
+    height: 100%;
+    width: 100%;
+}
+
+.team-names {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(79, 79, 79);
+    margin: 2px;
+}
+
+.team-content {
+    text-align: center;
+    font-size: small;
+    color: rgb(54, 53, 53)
+}
+
+.work {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    justify-content: space-evenly;
+    background-color: rgba(39, 36, 36, 0.495);
+    gap: 25px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+
+.cust-1,
+.cust-2,
+.cust-3 {
+    padding: 20px 15px 20px;
+    width: 280px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 5px rgb(58, 58, 58);
+    box-sizing: border-box;
+}
+
+.our-work {
+    padding: 0px;
+    width: 280px;
+    height: auto;
+    color: white;
+    box-sizing: border-box;
+
+}
+
+.work-img {
+    border-radius: 5px;
+    overflow: hidden;
+    height: 120px;
+}
+
+.cust {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px 0px 5px;
+}
+
+.work-name {
+    margin: 10px 0px 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.work-exp {
+    font-size: large;
+    color: grey;
+    letter-spacing: 2px;
+}
+
+.price-div {
+
+    width: 98%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-evenly;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.price-div>div {
+    width: 280px;
+    border-radius: 20px;
+    overflow: auto;
+    border: 2px solid;
+    box-shadow: 0px 0px 15px 1px;
+}
+
+.price-div p {
+    text-align: center;
+    border: 0.2px solid;
+    margin: 0px;
+    height: 50px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.price-var {
+    background-color: rgb(167, 164, 164);
+    color: white;
+    height: 100px;
+    padding: 10px 0px 10px;
+    text-align: center;
+    font-size: xx-large;
+    padding: 30px 0px;
+    box-sizing: border-box;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    margin: auto;
+    justify-content: space-evenly;
+    gap: 30px;
+    height: auto;
+    padding: 40px 2% 40px;
+    box-sizing: border-box;
+    background-color:rgba(39, 36, 36, 0.495) ;
+}
+
+.contact,
+.forms {
+
+    
+    padding: 20px;
+    text-align: left;
+    font-size: medium;
+    line-height: 2em;
+    max-width: 600px;
+    min-width: 240px;
+    flex: 1 1 auto;
+    box-sizing: border-box;
+    font-weight: bold;
+
+}
+.contact, a{
+    color: white;
+    line-height: 4em;
+}
+.forms{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 4px;
+}
+
+.contact-us{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+textarea, input{
+    
+    resize: none;
+    padding: 0px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid;
+    color: rgb(123, 69, 69);
+    box-sizing: border-box;
+    border-color: black;
+}
+
+.checkbox{
+    align-items: end;
+}
+.send{
+    margin-top: 30px;
+ background-color: rgb(81, 29, 15);
+    color: white;
+    font-size: large;
+    width: 80px;
+    padding: 3px;
+    border-radius: 5px;
+    
+}
+
+.footer{
+    
+    background-color: black;
+    height: 120px;
+    width: 98%;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+.footer svg{
+    
+        height: 20px;
+        border: 2px solid rgb(254, 252, 252);
+        padding: 4px;
+        border-radius: 5px;
+}
+.svgs{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 120px;
+    height: 40px;
+    justify-content: space-evenly;
+    padding: 2px;
+    box-sizing: border-box;
+    margin: auto;
+    position: relative;
+    top: 20px;
+   
+    
+}
+.follow-us{
+    color: rgb(252, 251, 251);
+    width: 80px;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    
+}
+.design{
+    text-align: center;
+    font-size: x-small;
+    color: white;
+    letter-spacing: 2px;
+    position: relative;
+    top: 40px;
+}
+
